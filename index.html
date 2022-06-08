@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/cutom.js"></script>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <!-- typing effect -->
+    <script src="js/typed.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--************************ create a header tag********************************************* -->
+    <header>
+        <!-- creating a nav bar -->
+        <nav>
+            <div class="logo">PORT<span>FOLIO</span></div>
+            <!-- ******************creating a menu usinh <a> tag ***************************-->
+            <div class="menu">
+                 <a href="#">Home</a>
+                 <a href="#">About</a>
+                 <a href="#">Skills</a>
+                 <a href="#">Services</a>
+                 <a href="#">Contact</a>
+            </div>
+        </nav>
+        <!--************************ 2nd section******************************** -->
+        <div class="text">
+            <p>Hello, I am</p>
+            <h1>TanveeR Patel</h1>
+            <!-- using typying effect at last -->
+            <p>And I am <span id="ani" style="color: #e74c3c;"></span></p>
+            <!-- create a button -->
+            <button class="c-btn">Hire me</button>
+        </div>
+    </header>
+    <!-- ******************************3rd section ********************************************-->
+        <!-- creating about -->
+        <!-- creating section info -->
+        <section id="about">
+            <div class="section-info">
+                <h1>About</h1>
+                <p>who i am?</p>
+            </div>
+
+            <!-- create another div -->
+            <div class="about-row">
+                <div class="about-left-col">
+                    <img src="images/about.jpg" alt="img">
+                </div>
+                <div class="about-right-col">
+                    <!-- using typying effect at last -->
+                    <p id="p-title">
+                        Hello, I am Tanveer & I am a <span id="ani2" style="color: #e74c3c;"></span>
+                    </p>
+                    <p>A full-stack developer is a web development professional who handles all of the programming required to build a website or application. Full-stack developers are skilled in both front-end and back-end development.</p>
+                    <!-- <buttonn id="btn">Download CV</button> -->
+                    <button class="c-btn">Download CV</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- **********************create 4 section based on skills******************************* -->
+        <section id="skills">
+            <!-- copy section-info -->
+            <div class="section-info">
+                <h1 style="color: white;">Skills</h1>
+                <p>my skills?</p>
+                <br>
+            </div>
+
+            <div class="skills-row">
+                <div class="skills-left-col">
+                    <p>A full-stack developer is a web development professional who handles all of the programming required to build a website or application. Full-stack developers are skilled in both front-end and back-end development.</p>
+                    <!-- <button id="btn1">Read more</button> -->
+                    <button class="c-btn">Read more</button>
+                </div>
+                <div class="skills-right-col">
+                    <div class="progress-div">
+                        <!-- creating a progress bar 1 -->
+                        <p>
+                        <span>HTML</span><br>
+                        <progress value="90" max="100"></progress>
+                        <span>80%</span>
+                        </p>
+
+                        <!-- creating a progress bar 2 -->
+                        <p>
+                            <span>CSS</span><br>
+                            <progress value="75" max="100"></progress>
+                            <span>75%</span>
+                        </p>
+
+                        <!-- creating a progress bar 3-->
+                        <p>
+                            <span>JAVA</span><br>
+                            <progress value="80" max="100"></progress>
+                            <span>80%</span>
+                        </p>
+
+                        <!-- creating a progress bar 4-->
+                        <p>
+                            <span>JAVA SCRIPT</span><br>
+                            <progress value="65" max="100"></progress>
+                            <span>65%</span>
+                        </p>
+
+                        <!-- creating a progress bar 5 -->
+                        <p>
+                            <span>POSTGRESS</span><br>
+                            <progress value="80" max="100"></progress>
+                            <span>80%</span>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- *******************************section of services******************************** -->
+        <section id="services">
+            <!-- copy section info -->
+            <div class="section-info">
+                <h1>Services</h1>
+                <p>what we provide</p>
+            </div>
+
+            <div class="services-row">
+                <!-- creating services box 1 -->
+                <!-- adding data-tilt in div for srvices box animation at last -->
+                <div class="services-box"data-tilt>
+                    <img src="images/b2.png" alt="img">
+                    <h2>Web Design</h2>
+                    <p>A full-stack developer is a web development professional who handles all of the programming required to build a website or application</p>
+                </div>
+
+                 <!-- creating services box 2-->
+                 <!-- adding data-tilt in div for srvices box animation at last -->
+                 <div class="services-box"data-tilt>
+                    <img src="images/b2.png" alt="img">
+                    <h2>Web Development</h2>
+                    <p>A full-stack developer is a web development professional who handles all of the programming required to build a website or application</p>
+                </div>
+
+                 <!-- creating services box 3-->
+                <!-- adding data-tilt in div for srvices box animation at last -->
+                 <div class="services-box"data-tilt>
+                    <img src="images/b2.png" alt="img">
+                    <h2>Apps development </h2>
+                    <p>A full-stack developer is a web development professional who handles all of the programming required to build a website or application</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- create a contact section -->
+
+        <section id="contact">
+            <!-- copy section info -->
+            <div class="section-info" style="color: white;">
+                <h1>Get in touch</h1>
+                <p style="color: black;">we ara vaailable</p>
+            </div>
+            <div class="contact-row">
+                <div class="contact-left-col">
+                    <img src="images\b3.png" alt="img">
+                </div>
+                <div class="contact-right-col">
+                    <form action="">
+                        <h2>Connect with us </h2>
+                        <input type="text" name="" placeholder="Name">
+                        <input type="email" name="" placeholder="Email">
+                        <br>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                        <br>
+                        <button class="c-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- **************************creating a footer section******************************* -->
+        <section id="footer">
+            <h2>Developed by Tanveer Patel</h2>
+            <img src="images/icon.png" alt="img" width="100">
+        </section>
+
+
+        <!-- ******************** water effect ************************ -->
+        <!-- <script src="js/jquery.ripples-min.js"></script>
+
+        <script>
+            jQuery(document).ready(
+                function()
+                {
+                    $('header').ripples({   //use in header
+                        dropRadius: 20,     //default value=20
+                         perturbance: 0.03, //default value=0.03
+                                            
+                         });
+                }
+            );
+        </script> -->
+
+        <!-- add a typing effect -->
+        <!-- creating a animation -->
+        <!-- used for first section -->
+        <Script>
+            let animate = new Typed('#ani',{
+                strings:["Front End Developer","Full Stack Developer","Back End Developer"],
+                typeSpeed:100,
+                backSpeed:100,
+                loop:true
+            })
+        </Script>
+
+        <!-- used for about -->
+
+      <Script>
+            let animate1 = new Typed('#ani2',{
+            strings:["Front End Developer","Full Stack Developer","Back End Developer"],
+            typeSpeed:100,
+            backSpeed:100,
+            loop:true
+          })
+</Script>
+
+<!-- link tilt.js foe services box -->
+<script src="js/tilt.jquery.min.js"></script>
+    
+</body>
+</html>
